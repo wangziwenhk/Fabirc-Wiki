@@ -1,6 +1,6 @@
 # Project Information
-site_name: Compiler Wiki
-site_description: Compiler Wiki 是关于编译器的相关知识
+site_name: Farbic Wiki
+site_description: Fabric Wiki 是关于 Fabric 的相关知识
 site_author: wangziwenhk
 strict: true
 
@@ -12,6 +12,7 @@ nav:
 
 theme:
   name: material
+  language: zh
   custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
