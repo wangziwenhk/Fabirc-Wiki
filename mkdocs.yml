@@ -11,8 +11,10 @@ copyright: Copyright &copy; 2024 - 2024 wangziwenhk
 nav:
   - 简介:
     - 开始: index.md
-    - 关于本项目: start/project.md
-    - 如何贡献: start/contribution.md
+    - 关于本项目: introduction/project.md
+    - 如何贡献: introduction/contribution.md
+  - 开始:
+    - 配置开发环境: start/config.md
 
 theme:
   name: material
