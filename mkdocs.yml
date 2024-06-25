@@ -1,8 +1,12 @@
+#file: noinspection SpellCheckingInspection
 # Project Information
-site_name: Farbic Wiki
+site_name: Fabric Wiki
 site_description: Fabric Wiki 是关于 Fabric 的相关知识
 site_author: wangziwenhk
+#site_url: https://wangziwenhk.github.io/Fabric-Wiki/
+site_url: https://127.0.0.1/Fabric-Wiki/
 strict: true
+copyright: Copyright &copy; 2024 - 2024 wangziwenhk
 
 nav:
   - 简介:
@@ -12,8 +16,10 @@ nav:
 
 theme:
   name: material
+  font: false
   language: zh
   custom_dir: overrides
+  logo: img/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -26,9 +32,22 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - search.suggest
+    - search.highlight
+    - search.share
     - navigation.tabs
+    - navigation.footer
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
     - navigation.tracking
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - header.autohide
+    - announce.dismiss
+    - toc.follow
   plugins:
     - search:
       title: '搜索'
@@ -37,8 +56,11 @@ theme:
     - optimize
     
 extra:
-  version:
-    method: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://www.github.com/wangziwenhk
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/1397454461
 
 extra_css:
   - extra/css/extra.css
