@@ -6,12 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://127.0.0.1/Fabric-Wiki/start/contribution/</loc>
+         <loc>https://127.0.0.1/Fabric-Wiki/introduction/contribution/</loc>
          <lastmod>2024-06-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://127.0.0.1/Fabric-Wiki/start/project/</loc>
+         <loc>https://127.0.0.1/Fabric-Wiki/introduction/project/</loc>
+         <lastmod>2024-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/Fabric-Wiki/start/config/</loc>
          <lastmod>2024-06-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
