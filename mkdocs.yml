@@ -10,11 +10,20 @@ copyright: Copyright &copy; 2024 - 2024 wangziwenhk
 
 nav:
   - 简介:
-    - 开始: index.md
-    - 关于本项目: introduction/project.md
-    - 如何贡献: introduction/contribution.md
+      - 开始: index.md
+      - 关于本项目: introduction/project.md
+      - 如何贡献: introduction/contribution.md
   - 开始:
-    - 配置开发环境: start/config.md
+      - 配置开发环境: start/config.md
+  - 基础:
+      - 阅读 Minceraft 源代码: base/readMcCode.md
+      - 热重载 Minecraft: base/applyChanges.md
+  - 物品:
+      - 添加物品: item/addItem.md
+  - 方块和方块实体:
+      - 添加方块: block/addBlock.md
+  - 优化:
+      - 加快 Fabric 模组构建速度: optimization/speedBuild.md
 
 theme:
   name: material
@@ -26,7 +35,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -56,26 +65,41 @@ theme:
     - livereload
     - latex
     - optimize
-    
+    - markdown.extensions.extra
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://www.github.com/wangziwenhk
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/1397454461
+  comments:
+    provider: giscus
+    mapping: pathname
+    reactions: true
+    emit_metadata: true
+    theme: light
+    lang: zh
 
 extra_css:
   - extra/css/extra.css
-    
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
+  - attr_list
   - pymdownx.details
+  - md_in_html
   - toc:
       title: '目录'
       permalink: true
