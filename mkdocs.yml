@@ -15,6 +15,7 @@ nav:
       - 如何贡献: introduction/contribution.md
   - 开始:
       - 配置开发环境: start/config.md
+      - 启用 log4j 调试信息: start/log4j.md
   - 基础:
       - 阅读 Minceraft 源代码: base/readMcCode.md
       - 热重载 Minecraft: base/applyChanges.md
@@ -59,6 +60,7 @@ theme:
     - header.autohide
     - announce.dismiss
     - toc.follow
+    - content.tabs.link
   plugins:
     - search:
       title: '搜索'
@@ -96,9 +98,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
   - admonition
   - attr_list
-  - pymdownx.details
   - md_in_html
   - toc:
       title: '目录'
