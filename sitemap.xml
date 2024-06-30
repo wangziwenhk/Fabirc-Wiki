@@ -2,47 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/base/applyChanges/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/Fabric-Wiki/base/introduce/</loc>
+         <lastmod>2024-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/Fabric-Wiki/base/mcWriteBase/</loc>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/base/readMcCode/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/block/addBlock/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/introduction/contribution/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/introduction/project/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/item/addItem/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/optimization/speedBuild/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/Fabric-Wiki/start/config/</loc>
-         <lastmod>2024-06-26</lastmod>
+         <lastmod>2024-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/Fabric-Wiki/start/log4j/</loc>
+         <lastmod>2024-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
